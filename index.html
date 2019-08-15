@@ -14,15 +14,27 @@
 <body>
 <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
     <a href="/" class="navbar-brand">Süisse</a>
-    <ul class="navbar-nav mr-auto">
-        <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
-        <li class="active nav-item mr-2"><a class="nav-link" href="#about">About Me</a></li>
-        <li class="active nav-item mr-2"><a class="nav-link" href="#pictures">Photos</a></li>
-        <li class="active nav-item mr-2"><a class="nav-link" href="#videos">Videos</a></li>
-        <li class="active nav-item mr-2"><a class="nav-link" href="#music">My music</a></li>
-        <li class="active nav-item mr-2"><a class="nav-link" href="#contact">Contact Me</a></li>
-    </ul>
+    <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="togglenavigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        "
+        <ul class="navbar-nav mr-auto">
+            <li class="active nav-item mr-2"><a class="nav-link" href="#home">Home</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="#about">About Me</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="#pictures">Photos</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="#videos">Videos</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="#music">My music</a></li>
+            <li class="active nav-item mr-2"><a class="nav-link" href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
     <div class="d-none d-md-block">
+        <i class="fab fa-instagram my-auto mr-2"></i>
+        <i class="fab fa-facebook my-auto mr-2"></i>
+        <i class="fab fa-soundcloud my-auto mr-2"></i>
+        <i class="fab fa-twitter my-auto mr-2"></i>
+        <i class="fab fa-mixcloud my-auto mr-2"></i>
         <p class="navbar-text my-auto mr-2"><i>#keepingitSüisse</i></p>
     </div>
 
@@ -76,7 +88,7 @@
     <hr>
     <!-- pictures section-->
 
-    <section class="pictures">
+    <section class="container-fluid">
         <div class="row" id="pictures">
             <div class="col-12 my-5 text-center">
                 <h2 class="text-uppercase">Images:</h2>
@@ -86,32 +98,32 @@
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="media text-center">
                     <div class="picture">
-                        <img src="assets/images/suisse%20jumper%20black%20.jpg" class="rounded mr-3 my-3" height=200
-                             width=200>
+                        <img src="assets/images/suisse%20jumper%20black%20.jpg" class="rounded mr-3 my-3" height=300
+                             width=200 style="width:100%">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="media">
                     <div class="picture">
-                        <img src="assets/images/flag.jpg" class="rounded mr-3 my-3" height=200
-                             width=200>
+                        <img src="assets/images/flag.jpg" class="rounded mr-3 my-3" height=300
+                             width=200 style="width:100%">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3">
                 <div class="media">
                     <div class="picture">
-                        <img src="assets/images/pink.jpg" class="rounded mr-3 my-3" height=200
-                             width=200>
+                        <img src="assets/images/pink.jpg" class="rounded mr-3 my-3" height=300
+                             width=300 style="width:100%">
                     </div>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-3 text-center">
                 <div class="media">
                     <div class="picture">
-                        <img src="assets/images/tropical.jpg" class="rounded mr-3 my-3" height=200
-                             width=200>
+                        <img src="assets/images/tropical.jpg" class="rounded mr-3 my-3" height=300
+                             width=300 style="width:100%">
                     </div>
                 </div>
             </div>
@@ -128,13 +140,13 @@
         </div>
         <div class="row">
             <div class="col-12 col-md-6 col-lg-6">
-                <div class="embed-responsive embed-responsive-21by9 my-3">
+                <div class="embed-responsive embed-responsive-16by9 my-3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/O_wTgoPt4Tc"
                     " allowfullscreen></iframe>
                 </div>
             </div>
             <div class="col-12 col-md-6 col-lg-6">
-                <div class="embed-responsive embed-responsive-21by9 my-3">
+                <div class="embed-responsive embed-responsive-16by9 my-3">
                     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/erNPpzlYiQE"
                     " allowfullscreen></iframe>
                 </div>
@@ -154,7 +166,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="releases">
                     <h2>My latest Track:</h2>
-                    <div class="embed-responsive embed-responsive-21by9">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/590428686&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     </div>
@@ -163,7 +175,7 @@
             <div class="col-12 col-md-6 col-lg-6">
                 <div class="playlists">
                     <h2>latest Playlist:</h2>
-                    <div class="embed-responsive embed-responsive-21by9">
+                    <div class="embed-responsive embed-responsive-16by9">
                         <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay"
                                 src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/590436210&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe>
                     </div>
@@ -198,11 +210,11 @@
             </div>
             <div class="row">
                 <div class="col-12 text-center">
-                    <i class="fab fa-instagram"></i>
-                    <i class="fab fa-facebook"></i>
-                    <i class="fab fa-soundcloud"></i>
-                    <i class="fab fa-twitter"></i>
-                    <i class="fab fa-mixcloud"></i>
+                    <i class="fab fa-instagram mr-2"></i>
+                    <i class="fab fa-facebook mr-2"></i>
+                    <i class="fab fa-soundcloud mr-2"></i>
+                    <i class="fab fa-twitter mr-2"></i>
+                    <i class="fab fa-mixcloud mr-2"></i>
 
                 </div>
             </div>
@@ -211,5 +223,14 @@
 
 
 </article>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 </html>
