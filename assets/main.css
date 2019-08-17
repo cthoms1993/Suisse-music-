@@ -1,0 +1,75 @@
+body {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+
+.navbar-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: black;
+}
+
+.main-container {
+    height: 100vh;
+    background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+
+.about-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+    background-color: #444444;
+    color: white;
+
+
+}
+
+.pictures-container {
+    Padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+
+}
+
+.videos-container {
+    Padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.music-container {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    text-align: center;
+}
+
+.contact-container {
+    Padding-top: 150px;
+    padding-bottom: 150px
+
+
+}
+
+
+.footer-container {
+
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+}
