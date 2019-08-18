@@ -3,14 +3,6 @@ body {
 }
 
 /*main section containers*/
-.navbar-container {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding-left: 0;
-    padding-right: 0;
-
-}
 
 .navbar {
     margin-bottom: 0;
@@ -30,17 +22,22 @@ body {
 }
 
 .about-container {
-    padding-top: 150px;
-    padding-bottom: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
-    background-color: #444444;
+    background-color: #626567;
     color: white;
+
+
 }
 
 .pictures-container {
-    Padding-top: 150px;
-    padding-bottom: 150px;
+    Padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
+    background-color: black;
+    background-size: cover;
+    color: white;
 }
 
 .videos-container {
@@ -80,6 +77,19 @@ body {
         background-size: 900px 900px;
         background-position: center center;
         background-color: black;
+    }
+
+    .about-container {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        font-size: large;
+        text-align: left;
+        background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
+        background-position: center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 }
 
