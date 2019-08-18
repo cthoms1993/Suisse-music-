@@ -2,7 +2,7 @@ body {
     font-family: 'Lexend Exa', sans-serif;
 }
 
-
+/*main section containers*/
 .navbar-container {
     position: absolute;
     top: 0;
@@ -22,13 +22,12 @@ body {
 .main-container {
     height: 100vh;
     background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
+    background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-
+    background-size: 700px 800px;
 }
-
 
 .about-container {
     padding-top: 150px;
@@ -36,15 +35,12 @@ body {
     text-align: center;
     background-color: #444444;
     color: white;
-
-
 }
 
 .pictures-container {
     Padding-top: 150px;
     padding-bottom: 150px;
     text-align: center;
-
 }
 
 .videos-container {
@@ -69,7 +65,36 @@ body {
 
 .footer-container {
 
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+
+}
+
+/*media breaks*/
+@media (min-width: 992px) and (max-width: 1800px) {
+    .main-container {
+        height: 100vh;
+        -webkit-background-size: 900px 900px;
+        -moz-background-size: 900px 900px;
+        -o-background-size: 900px 900px;
+        background-size: 900px 900px;
+        background-position: center center;
+        background-color: black;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navbar-text {
+        display: none;
+    }
+
+    .main-container {
+        -webkit-background-size: 900px 900px;
+        -moz-background-size: 900px 900px;
+        -o-background-size: 900px 900px;
+        background-size: 900px 900px;
+        background-position: center center;
+        background-color: black;
+    }
 
 }
