@@ -14,7 +14,7 @@ body {
 
 .main-container {
     height: 100vh;
-    background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/suisse.jpg) no-repeat bottom right;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -25,6 +25,7 @@ body {
 .about-container {
     background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
     background-position: center center;
+    back
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -114,10 +115,6 @@ body {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.social-links i:hover {
-    background: black;
-    color: white;
-}
 
 
 /*media breaks*/
@@ -163,6 +160,10 @@ body {
     .playlists {
         padding-top: 0;
     }
+
+    .social-links i:hover {
+        background: black;
+        color: white;
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
