@@ -16,9 +16,9 @@ body {
     height: 100vh;
     background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
     background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
+    -webkit-background-size:700px 800px;
+    -moz-background-size: 700px 800px;
+    -o-background-size: 700px 800px;
     background-size: 700px 800px;
 }
 
@@ -122,11 +122,12 @@ body {
 
     .main-container {
         height: 100vh;
+        background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
+        background-position: center center;
         -webkit-background-size: 900px 900px;
         -moz-background-size: 900px 900px;
         -o-background-size: 900px 900px;
         background-size: 900px 900px;
-        background-position: center center;
         background-color: black;
     }
 
