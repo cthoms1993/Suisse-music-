@@ -25,7 +25,6 @@ body {
 .about-container {
     background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
     background-position: center center;
-    back
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -58,7 +57,9 @@ body {
     text-align: center;
     background-color: white;
     color: black;
+
 }
+
 
 .music-container {
     padding-top: 50px;
@@ -86,9 +87,9 @@ body {
 
 }
 
-.jumbotron{
+.jumbotron {
     background-color: rgba(0, 0, 0, 0.5);
-    color:white;
+    color: white;
 }
 
 .footer-container {
@@ -114,7 +115,6 @@ body {
     -webkit-transition: all 0.35s ease-in-out;
     -o-transition: all 0.35s ease-in-out;
 }
-
 
 
 /*media breaks*/
@@ -164,6 +164,7 @@ body {
     .social-links i:hover {
         background: black;
         color: white;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
