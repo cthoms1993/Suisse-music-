@@ -23,14 +23,18 @@ body {
 }
 
 .about-container {
+    background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    background-color: #444444;
     color: white;
-
-
 }
+
 
 .pictures-container {
     Padding-top: 50px;
@@ -42,24 +46,32 @@ body {
 }
 
 .videos-container {
+    background: url(../assets/images/suisse2.jpg) no-repeat bottom right fixed;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     Padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
-    background-color:#444444;
-    color:white;
+    background-color: white;
+    color: black;
 }
 
 .music-container {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: center;
-    background-color:black;
-    color:white;
+    background-color: black;
+    color: white;
 
 }
-.playlists{
+
+.playlists {
     padding-top: 20px;
 }
+
 .contact-container {
     Padding-top: 150px;
     padding-bottom: 150px;
@@ -73,19 +85,44 @@ body {
 
 }
 
+.jumbotron{
+    background-color: rgba(0, 0, 0, 0.5);
+    color:white;
+}
 
 .footer-container {
 
     padding-top: 150px;
     padding-bottom: 150px;
-
+    background-color: black;
+    color: white;
 }
+
+.social-links i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 100%;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+    background: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links i:hover {
+    background: black;
+    color: white;
+}
+
 
 /*media breaks*/
 @media (min-width: 992px) and (max-width: 3000px) {
-    .titles{
-        font-size:50px;
-    }
+
     .main-container {
         height: 100vh;
         -webkit-background-size: 900px 900px;
@@ -101,34 +138,29 @@ body {
         padding-bottom: 200px;
         font-size: large;
         text-align: left;
-        background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
-        background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
+
     }
 
-    .videos-container{
-       padding-top:150px;
-       padding-bottom:150px;
+    .videos-container {
+        padding-top: 100px;
+        padding-bottom: 150px;
         background: url(../assets/images/suisse2.jpg) no-repeat bottom right fixed;
         background-position: center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        color:black;
-        font-size: xx-large;
 
-    }
-    .music-container{
-        padding-top:100px;
-        padding-bottom:100px;
 
     }
 
-    .playlists{
+    .music-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+
+    }
+
+    .playlists {
         padding-top: 0;
     }
 }
