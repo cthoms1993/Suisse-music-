@@ -10,6 +10,7 @@ body {
     border: 0;
     width: 100%;
     background-color: black;
+    color: white;
 }
 
 .main-container {
@@ -46,12 +47,6 @@ body {
 }
 
 .videos-container {
-    background: url(../assets/images/suisse2.jpg) no-repeat bottom right fixed;
-    background-position: center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     Padding-top: 100px;
     padding-bottom: 100px;
     text-align: center;
@@ -118,68 +113,51 @@ body {
 
 
 /*media breaks*/
-@media (min-width: 992px) and (max-width: 3000px) {
-
+@media (min-width: 768px) {
+    .navbar-text {
+        display: none;
+    }
     .main-container {
-        height: 100vh;
-        background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
-        background-position: center center;
         -webkit-background-size: 900px 900px;
         -moz-background-size: 900px 900px;
         -o-background-size: 900px 900px;
         background-size: 900px 900px;
+        background-position: center center;
         background-color: black;
     }
-
+}
+@media (min-width: 992px) {
+    .navbar-text{
+        display: block;
+    }
+    .main-container {
+        height: 100vh;
+        -webkit-background-size: 900px 900px;
+        -moz-background-size: 900px 900px;
+        -o-background-size: 900px 900px;
+        background-size: 900px 900px;
+        background-color:black;
+    }
     .about-container {
         padding-top: 200px;
         padding-bottom: 200px;
         font-size: large;
         text-align: left;
-
     }
-
     .videos-container {
         padding-top: 100px;
         padding-bottom: 150px;
-        background: url(../assets/images/suisse2.jpg) no-repeat bottom right fixed;
-        background-position: center center;
-        -webkit-background-size: cover;
-        -moz-background-size: cover;
-        -o-background-size: cover;
-        background-size: cover;
-
 
     }
-
     .music-container {
         padding-top: 100px;
         padding-bottom: 100px;
-
     }
-
     .playlists {
         padding-top: 0;
     }
-
     .social-links i:hover {
         background: black;
         color: white;
     }
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-    .navbar-text {
-        display: none;
-    }
-
-    .main-container {
-        -webkit-background-size: 900px 900px;
-        -moz-background-size: 900px 900px;
-        -o-background-size: 900px 900px;
-        background-size: 900px 900px;
-        background-position: center center;
-        background-color: black;
-    }
-
 }
