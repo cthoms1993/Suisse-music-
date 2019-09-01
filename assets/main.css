@@ -46,6 +46,11 @@ body {
     color: white;
 }
 
+.pictures{
+    height:300px;
+    width:100%;
+}
+
 .videos-container {
     Padding-top: 100px;
     padding-bottom: 100px;
