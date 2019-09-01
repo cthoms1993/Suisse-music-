@@ -1,4 +1,4 @@
-#Süisse Music Web Design Project.
+# Süisse Music Web Design Project.
 
 ## Website Overview:
 
@@ -14,7 +14,7 @@ The navigation bar is functional on both mobile and larger screens, using a comp
 There is also a contact me enquiry form which allows user to input there details to request further information or to make a booking. 
 This form is not fully functional as it doesnt send details to a database or inform any site admins that a form has been filled in. 
 
-##Technologies used:
+## Technologies used:
 
 * HTML5
 * CSS3
@@ -28,17 +28,17 @@ This form is not fully functional as it doesnt send details to a database or inf
 * Javascript and JQuery are ued for the enquire here modal
 * Webstorm IDE
 
-##Deployment:
+## Deployment:
 
 The website was coded using webstorm IDE ,I used a local GIT repository for version control, it was then uploaded to to GITHUB.Once in the GITHUB repository the site was made live using GITHUB pages and can be found here: https://cthoms1993.github.io/Suisse-music-/
 
-##Testing:
+## Testing:
 
 The site was tested locally and on GITHUB pages using Chrome development tools.
 It was tested on landscape and portrait mode on Google pixel 2, Google pixel 3, Galaxy S5, Nexus 5S, Nexus 6P, iPhone 7, iPhone 7 Plus, iPhone 8, iPhone 8 Plus, iPhone X, iPad, iPad Pro and responsive desktop.
 All social media links, videos, music players  and the enquire now modal where tested locally and remotely.
 
-##Credits:
+## Credits:
 
 I used the modal previously used in the whisky drop website for my enquire to book me section, however I have altered the code and the content to reflect the purpose of the modal in my web page. 
 
