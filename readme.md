@@ -15,7 +15,7 @@ There is also a contact me enquiry form which allows user to input there details
 This form is not fully functional as it doesnt send details to a database or inform any site admins that a form has been filled in. 
 
 ## User Design Experience:
-To see My user design experience view the content of the user design experience folder where i have section for strategy, skeleton,scope and structure. 
+To see my user design experience view the content of the user design experience folder where I have sections for strategy, skeleton,scope and structure. 
 ## Technologies used:
 
 * HTML5
