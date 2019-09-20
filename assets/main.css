@@ -15,7 +15,7 @@ body {
 
 .main-container {
     height: 100vh;
-    background: url(../assets/images/suisse.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/suisse.jpg) no-repeat bottom right;
     background-position: center center;
     -webkit-background-size:700px 800px;
     -moz-background-size: 700px 800px;
@@ -24,7 +24,7 @@ body {
 }
 
 .about-container {
-    background: url(../assets/images/mono.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/mono.jpg) no-repeat bottom right;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -75,7 +75,7 @@ body {
 .contact-container {
     Padding-top: 150px;
     padding-bottom: 150px;
-    background: url(../assets/images/whiteback.jpg) no-repeat bottom right fixed;
+    background: url(../assets/images/whiteback.jpg) no-repeat bottom right;
     background-position: center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
