@@ -121,10 +121,10 @@ body {
         display: none;
     }
     .main-container {
-        -webkit-background-size: 900px 900px;
-        -moz-background-size: 900px 900px;
-        -o-background-size: 900px 900px;
-        background-size: 900px 900px;
+        -webkit-background-size: 900px 800px;
+        -moz-background-size: 900px 800px;
+        -o-background-size: 900px 800px;
+        background-size: 900px 800px;
         background-position: center center;
         background-color: black;
     }
