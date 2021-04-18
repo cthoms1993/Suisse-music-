@@ -135,10 +135,10 @@ body {
     }
     .main-container {
         height: 100vh;
-        -webkit-background-size: 900px 900px;
-        -moz-background-size: 900px 900px;
-        -o-background-size: 900px 900px;
-        background-size: 900px 900px;
+        -webkit-background-size: 800px 700px;
+        -moz-background-size: 800px 700px;
+        -o-background-size: 800px 700px;
+        background-size: 800px 700px;
         background-color:black;
     }
     .about-container {
