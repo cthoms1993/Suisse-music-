@@ -1,0 +1,166 @@
+body {
+    font-family: 'Lexend Exa', sans-serif;
+}
+
+/*main section containers*/
+
+
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.main-container {
+    height: 100vh;
+    background: url(../assets/images/suisse.jpg) no-repeat bottom right;
+    background-position: center center;
+    -webkit-background-size:700px 800px;
+    -moz-background-size: 700px 800px;
+    -o-background-size: 700px 800px;
+    background-size: 700px 800px;
+}
+
+.about-container {
+    background: url(../images/mono.jpg) no-repeat bottom right;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+.pictures-container {
+    Padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    background-size: cover;
+    color: white;
+}
+
+.pictures{
+    height:300px;
+    width:100%;
+}
+
+.videos-container {
+    Padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    background-color: white;
+    color: black;
+
+}
+
+
+.music-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+}
+
+
+
+.contact-container {
+    Padding-top: 150px;
+    padding-bottom: 150px;
+    background: url(../images/whiteback.jpg) no-repeat bottom right;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+}
+
+.jumbotron {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.footer-container {
+
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background-color: black;
+    color: white;
+}
+
+.social-links i {
+    width: 50px;
+    height: 50px;
+    padding: 12px 0;
+    border-radius: 100%;
+    font-size: 25px;
+    line-height: 23px;
+    text-align: center;
+    color: black;
+    background: white;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+
+/*media breaks*/
+@media (min-width: 768px) {
+    .navbar-text {
+        display: none;
+    }
+    .main-container {
+        -webkit-background-size: 900px 900px;
+        -moz-background-size: 900px 900px;
+        -o-background-size: 900px 900px;
+        background-size: 900px 900px;
+        background-position: center center;
+        background-color: black;
+    }
+}
+@media (min-width: 992px) {
+    .navbar-text{
+        display: block;
+    }
+    .main-container {
+        height: 100vh;
+        -webkit-background-size: 900px 900px;
+        -moz-background-size: 900px 900px;
+        -o-background-size: 900px 900px;
+        background-size: 900px 900px;
+        background-color:black;
+    }
+    .about-container {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        font-size: large;
+        text-align: left;
+    }
+    .videos-container {
+        padding-top: 100px;
+        padding-bottom: 150px;
+
+    }
+    .music-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .playlists {
+        padding-top: 0;
+    }
+    .social-links i:hover {
+        background: black;
+        color: white;
+    }
+}
